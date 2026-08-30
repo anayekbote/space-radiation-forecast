@@ -1,0 +1,9 @@
+venv/
+dist/
+build/
+cachedir/
+__pycache__/
+*.pyc
+*.spec
+data/*
+!data/.gitkeep

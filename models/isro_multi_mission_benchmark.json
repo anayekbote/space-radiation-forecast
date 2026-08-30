@@ -1,0 +1,20 @@
+{
+  "1h": {
+    "mae": 0.1978534609079361,
+    "rmse": 0.25201218674252707,
+    "hazard_f1_score": 0.0,
+    "alert_event_count": 0
+  },
+  "6h": {
+    "mae": 0.19720350205898285,
+    "rmse": 0.25674962090907205,
+    "hazard_f1_score": 0.0,
+    "alert_event_count": 0
+  },
+  "24h": {
+    "mae": 0.19251960515975952,
+    "rmse": 0.24110248768635342,
+    "hazard_f1_score": 0.0,
+    "alert_event_count": 0
+  }
+}

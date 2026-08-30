@@ -1,0 +1,104 @@
+{
+  "1h": {
+    "persistence": {
+      "rmse": 0.2696009145076322,
+      "mae": 0.2112448662519455,
+      "r2": -0.8892282247543335
+    },
+    "xgboost": {
+      "rmse": 0.25201218674252707,
+      "mae": 0.1978534609079361,
+      "r2": -0.6507631540298462
+    },
+    "top_features": [
+      {
+        "feature": "newell_coupling_std_72h",
+        "importance": 0.10507667064666748
+      },
+      {
+        "feature": "electric_field_ey_std_72h",
+        "importance": 0.055831532925367355
+      },
+      {
+        "feature": "dst_index_std_72h",
+        "importance": 0.05216694250702858
+      },
+      {
+        "feature": "electric_field_ey_mean_72h",
+        "importance": 0.047919079661369324
+      },
+      {
+        "feature": "dst_index_mean_24h",
+        "importance": 0.04424336925148964
+      }
+    ]
+  },
+  "6h": {
+    "persistence": {
+      "rmse": 0.27147057038482114,
+      "mae": 0.21297824382781982,
+      "r2": -0.9157974720001221
+    },
+    "xgboost": {
+      "rmse": 0.25674962090907205,
+      "mae": 0.19720350205898285,
+      "r2": -0.7136561870574951
+    },
+    "top_features": [
+      {
+        "feature": "newell_coupling_std_72h",
+        "importance": 0.08495473861694336
+      },
+      {
+        "feature": "electric_field_ey_mean_72h",
+        "importance": 0.063907191157341
+      },
+      {
+        "feature": "dst_index_std_72h",
+        "importance": 0.05521547794342041
+      },
+      {
+        "feature": "dst_index_mean_24h",
+        "importance": 0.04863541200757027
+      },
+      {
+        "feature": "electric_field_ey_std_72h",
+        "importance": 0.043920181691646576
+      }
+    ]
+  },
+  "24h": {
+    "persistence": {
+      "rmse": 0.27588459110310526,
+      "mae": 0.21526142954826355,
+      "r2": -0.9775564670562744
+    },
+    "xgboost": {
+      "rmse": 0.24110248768635342,
+      "mae": 0.19251960515975952,
+      "r2": -0.5103492736816406
+    },
+    "top_features": [
+      {
+        "feature": "newell_coupling_std_72h",
+        "importance": 0.07648003846406937
+      },
+      {
+        "feature": "electric_field_ey_mean_72h",
+        "importance": 0.06889618933200836
+      },
+      {
+        "feature": "dst_index_std_72h",
+        "importance": 0.044378843158483505
+      },
+      {
+        "feature": "electric_field_ey_mean_24h",
+        "importance": 0.04281320050358772
+      },
+      {
+        "feature": "p_dyn_std_72h",
+        "importance": 0.04224740341305733
+      }
+    ]
+  }
+}
